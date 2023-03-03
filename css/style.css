@@ -40,6 +40,10 @@ h3 {
     color: #fff;
 }
 
+.clr {
+    clear: both;
+}
+
 /* navbar */
 #navbar {
     background: #333;
@@ -113,9 +117,9 @@ h3 {
     background: #f7c08a;
 }
 
-.btn-light{
+.btn-light {
     background: #f7c08a;
-    color:#333;
+    color: #333;
 }
 
 /* home-info */
@@ -139,6 +143,45 @@ h3 {
     overflow: hidden;
 }
 
-#home-info .info-content p{
+#home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* featuree */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 30px;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+/* footer */
+#main-footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* gg customize */
+.gg-apple-watch,
+.gg-filters,
+.gg-add-r {
+    --ggs: 3;
+    /* gg icon center */
+    display: inline-flex;
 }
