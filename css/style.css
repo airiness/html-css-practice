@@ -120,6 +120,7 @@ h3 {
     color: #fff;
     background: #333;
     padding: 13px 20px;
+    border: none;
 }
 
 .btn:hover {
@@ -225,6 +226,33 @@ h3 {
     float: left;
 }
 
+/* contact-form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contect-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contect-form input,
+#contect-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contect-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
 /* footer */
 #main-footer {
     text-align: center;
@@ -234,9 +262,7 @@ h3 {
 }
 
 /* gg customize */
-.gg-apple-watch,
-.gg-filters,
-.gg-add-r {
+[class*="gg-"] {
     --ggs: 3;
     /* gg icon center */
     display: inline-flex;
