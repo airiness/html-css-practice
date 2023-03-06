@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before & After</title>
+    <style>
+        .is-required:after {
+            content: '*';
+            color: red;
+            padding-left: 2px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #333;
+            color: #fff;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        header:before {
+            content: '';
+            background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+            opacity: 0.4;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        header>h1 {
+            font-size: 4rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <label class="is-required" for="name">Name</label>
+    <input type="text">
+    <form action=""></form> -->
+
+    <header>
+        <h1>Welcom to MX Online</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolores ea natus eius voluptatum pariatur!
+        </p>
+    </header>
+    <section>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat rerum necessitatibus est eaque aspernatur
+            maiores, accusamus possimus ad alias animi culpa labore vitae dicta reiciendis quibusdam numquam ipsa
+            reprehenderit voluptas?</p>
+    </section>
+</body>
+
+</html>
