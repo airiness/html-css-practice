@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1rem; */
+            /* grid-row-gap: 1rem; */
+            grid-gap: 1rem;
+        }
+
+        .wrapper>div {
+            background: #eee;
+            padding: 1rem;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi distinctio, sit debitis nam libero
+            labore eligendi magnam veritatis perspiciatis nulla dicta velit quos possimus reiciendis laudantium
+            consectetur doloremque porro doloribus? Quo minima in repellendus nam expedita animi reprehenderit quis
+            facere quod. Illo in atque fugit accusamus corporis expedita distinctio veritatis, quam ipsa consequuntur
+            doloremque quaerat fuga ab deleniti ducimus ut ea. Repellat iure aspernatur, hic facilis tempora modi animi
+            saepe natus odit nulla, id aliquid. Ea tenetur quisquam molestiae unde.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, hic laboriosam dolore deleniti rerum
+            praesentium adipisci vel quod distinctio reprehenderit. Quisquam reiciendis nihil illum, fugiat, iste
+            commodi quam cumque ad alias facilis tempora quas possimus. Nostrum reiciendis quaerat vero sint.</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi distinctio, sit debitis nam libero
+            labore eligendi magnam veritatis perspiciatis nulla dicta velit quos possimus reiciendis laudantium
+            consectetur doloremque porro doloribus? Quo minima in repellendus nam expedita animi reprehenderit quis
+            facere quod. Illo in atque fugit accusamus corporis expedita distinctio veritatis, quam ipsa consequuntur
+            doloremque quaerat fuga ab deleniti ducimus ut ea. Repellat iure aspernatur, hic facilis tempora modi animi
+            saepe natus odit nulla, id aliquid. Ea tenetur quisquam molestiae unde.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, hic laboriosam dolore deleniti rerum
+            praesentium adipisci vel quod distinctio reprehenderit. Quisquam reiciendis nihil illum, fugiat, iste
+            commodi quam cumque ad alias facilis tempora quas possimus. Nostrum reiciendis quaerat vero sint.</div>
+        <div>Hello</div>
+    </div>
+</body>
+
+</html>
