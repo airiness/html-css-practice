@@ -4,3 +4,4 @@
 * https://unsplash.com/ja
 * https://www.bootcdn.cn/
 * https://worldvectorlogo.com/
+* https://fonts.google.com/
