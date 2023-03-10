@@ -5,3 +5,4 @@
 * https://www.bootcdn.cn/
 * https://worldvectorlogo.com/
 * https://fonts.google.com/
+* https://icons8.com/

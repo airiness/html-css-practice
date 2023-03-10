@@ -14,24 +14,26 @@
 </head>
 
 <body>
-    <!-- <div id="flash">
-        <img src="" alt="logo">
+    <div id="flash">
+        <img src="img/logo.svg" alt="logo">
         <p>Every Food Any Time</p>
-    </div> -->
+    </div>
 
     <div class="content">
         <header class="app-header">
             <div class="container">
-                <img src="" alt="">
+                <img src="img/logo.svg" alt="logo" class="logo">
                 <p>Every Food Any Time</p>
                 <input type="text" class="search" placeholder="Search...">
             </div>
         </header>
-        <div class="sub-header"></div>
-        <div>
-            <p>Delivery Information</p>
-            <p>Delivery man is coming for u, click to see detail information... <i class="fa fa-chevron-right"></i></p>
-            <img src="" alt="">
+        <div class="sub-header">
+            <div>
+                <p>Delivery Information</p>
+                <p>Delivery man is coming for u, click to see detail information... <i class="fa fa-chevron-right"></i>
+                </p>
+            </div>
+            <img src="img/delivery.png" alt="">
         </div>
         <div class="grid container">
             <div class="item">
@@ -68,12 +70,17 @@
     </div>
     <footer class="app-footer">
         <ul>
-            <li><i class="fa fa-heart">collect</i></li>
-            <li><i class="fa fa-cart-arrow-down">collect</i></li>
-            <li><i class="fa fa-user">collect</i></li>
-            <li><i class="fa fa-map-marked">collect</i></li>
+            <li><i class="fa fa-heart"></i>Collection</li>
+            <li><i class="fa fa-cart-arrow-down"></i>Orders</li>
+            <li><i class="fa fa-user"></i>Mine</li>
+            <li><i class="fa fa-map-marked"></i>Nearby</li>
         </ul>
     </footer>
+    <script>
+        setTimeout(function () {
+            document.getElementById('flash').classList.add('fade')
+        }, 2000)
+    </script>
 </body>
 
 </html>
