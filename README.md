@@ -1,3 +1,1 @@
-# static pages
-# responsive layout
-# flexbox
+# html&css
