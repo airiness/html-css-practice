@@ -7,6 +7,7 @@
 * https://css.gg/
 * https://worldvectorlogo.com/
 * https://icons8.com/
+* https://icomoon.io/
 
 ### fonts
 * https://fonts.google.com/
