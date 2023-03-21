@@ -18,3 +18,6 @@
 ### resources & contents
 * https://cdnjs.com/
 * https://www.bootcdn.cn/
+
+### documents
+* https://www.toptal.com/developers/keycode
