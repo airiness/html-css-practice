@@ -8,6 +8,7 @@
 * https://worldvectorlogo.com/
 * https://icons8.com/
 * https://icomoon.io/
+* https://fav.farm/
 
 ### fonts
 * https://fonts.google.com/
