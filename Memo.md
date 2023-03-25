@@ -22,3 +22,6 @@
 
 ### documents
 * https://www.toptal.com/developers/keycode
+
+### qrcode
+* https://me-qr.com/
