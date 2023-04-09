@@ -1,27 +1,39 @@
 ## marked sites
+
 ### images
-* https://www.pexels.com/ja-jp/
-* https://unsplash.com/ja
+
+-   https://www.pexels.com/ja-jp/
+-   https://unsplash.com/ja
 
 ### icons
-* https://css.gg/
-* https://worldvectorlogo.com/
-* https://icons8.com/
-* https://icomoon.io/
-* https://fav.farm/
+
+-   https://css.gg/
+-   https://worldvectorlogo.com/
+-   https://icons8.com/
+-   https://icomoon.io/
+-   https://fav.farm/
 
 ### fonts
-* https://fonts.google.com/
+
+-   https://fonts.google.com/
 
 ### framework
-* https://multiple.js.org/
+
+-   https://multiple.js.org/
 
 ### resources & contents
-* https://cdnjs.com/
-* https://www.bootcdn.cn/
+
+-   https://cdnjs.com/
+-   https://www.bootcdn.cn/
 
 ### documents
-* https://www.toptal.com/developers/keycode
+
+-   https://www.toptal.com/developers/keycode
 
 ### qrcode
-* https://me-qr.com/
+
+-   https://me-qr.com/
+
+### framework
+
+-   https://getbootstrap.com/
