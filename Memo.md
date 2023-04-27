@@ -37,3 +37,9 @@
 ### framework
 
 -   https://getbootstrap.com/
+
+### animation
+-   https://lottiefiles.com/
+
+### graph
+-   https://vueflow.dev/
