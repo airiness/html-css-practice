@@ -43,3 +43,6 @@
 
 ### graph
 -   https://vueflow.dev/
+
+### tools
+-   https://cubic-bezier.com/
